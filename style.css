@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* navbar */
+.navbar{
+    color: white;
+    height: 50px;
+    background-color: #004f80;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-portfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:  15px;
+    white-space: nowrap;
+}
+
+
+.nav-ops{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 600px;
+    width: 40%;
+}
+
+.nav-ops a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid transparent;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.first-section{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 23px 0;
+}
+
+.right img{
+    width: 100%; 
+    max-width: 550px; 
+    height: auto;
+}
+
+
+.left{
+    font-size: 30px;
+    max-width: 500px; /* Allows flexibility */
+    margin-left: 40px;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+
+#desc{
+    font-size: 25px;
+}
+
+
+.nav-ops a:hover {
+    color: black;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 4px;
+    width: max-content;
+
+}
+
+#instagram{
+    color: #e5109e;
+    font-size: 30px;
+}
+
+#twitter{
+    color: #1DA1F2;
+    font-size: 30px;
+}
+
+#linkedin{
+    font-size: 30px;
+    color: blue;
+}
+
+
+#about{
+    margin: 10px;
+    font-size: 20px;
+}
+
+
+#contact {
+    font-size: 20px;
+    margin: 10px;
+}
+
+#contact ul{
+    text-decoration: underline;
+    color: #2f00ff
+}
+
+#skills {
+    font-size: 20px;
+    margin: 10px;
+}
